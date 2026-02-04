@@ -1,0 +1,15 @@
+# This is a comment.
+
+# 1. Default owner for everything in the repo
+* @global-owner-username
+
+# 2. Specific folder owned by a team
+/build/logs/ @do-not-delete-bot
+/apps/frontend/ @org-name/frontend-team
+
+# 3. Specific file types owned by a specialist
+*.js    @javascript-expert
+*.py    @python-guru
+
+# 4. A specific file in a specific location
+/docs/api-specs.md @tech-writer-user
